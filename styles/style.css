@@ -197,7 +197,7 @@ body {
 }
 
 .about-img {
-    background: url("../images/about-img.jpeg") no-repeat center/cover;
+    background: url("../images/about-img.jpeg") no-repeat center/contain;
 }
 
 .facts {
