@@ -395,14 +395,23 @@ body {
 
 }
 
+.portfolio-post-item{
+    position: relative;
+    padding: 0 7px;
+}
+.portfolio-post-item:hover{
+    overflow: hidden;
+}
 .portfolio-box {
     position: relative;
     overflow: hidden;
     margin-bottom: 30px;
-    padding: 0 7px;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
+.portfolio-img{
+
+}
 .portfolio-box:hover {
     transform: translateY(-20px);
 }
@@ -419,6 +428,7 @@ body {
 }
 
 .portfolio-box:hover .overlay {
+
     margin-bottom: 100px;
     transition: 0.5s;
 }
@@ -514,6 +524,7 @@ body {
 }
 
 .contact-box {
+    padding-bottom: 130px;
 }
 
 .adr {
@@ -634,10 +645,16 @@ body {
 }
 
 .justify-content-center {
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .contact-box {
-    justify-content: center;
     padding-left: 70px;
+}
+.burger{
+    color: #fff;
+    font-size: 24px;
+    display: none;
 }
