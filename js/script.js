@@ -2,5 +2,14 @@ const muBurger = document.querySelector('.burger')
 const myMenu = document.querySelector('.menu')
 
 muBurger.addEventListener('click', () => {
-    myMenu.classList.add(show)
+    myMenu.classList.toggle('show')
+    document.body.classList.toggle('o-hidden')
 })
+
+menuLinks.forEach(oneLink => {
+    muBurger.addEventListener('click', () => {
+        myMenu.classList.remove('show')
+        document.body.classList.remove('o-hidden')
+    })
+    }
+)
