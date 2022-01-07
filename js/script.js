@@ -7,9 +7,8 @@ muBurger.addEventListener('click', () => {
 })
 
 menuLinks.forEach(oneLink => {
-    muBurger.addEventListener('click', () => {
+    oneLink.addEventListener('click', () => {
         myMenu.classList.remove('show')
-        document.body.classList.remove('o-hidden')
+        document.body.classList.toggle('o-hidden')
     })
-    }
-)
+})

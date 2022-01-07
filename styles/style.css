@@ -153,6 +153,11 @@ body {
     width: 50%;
 }
 
+.about-container{
+    padding-top: 40px;
+}
+
+
 .about-title {
     color: #333;
     font-weight: 700;
@@ -235,7 +240,6 @@ body {
 }
 
 .services-title {
-    padding-top: 80px;
     font-size: 32px;
     color: #111;
     text-transform: uppercase;
@@ -263,6 +267,10 @@ body {
     color: #2dc997;
 }
 
+
+.services-container{
+    padding-top: 80px
+}
 .services-box {
     text-align: center;
     border: 1px solid #e6e6e6;
@@ -330,7 +338,6 @@ body {
 .portfolio {
     display: block;
     background-color: #f7f7f7;
-    padding-bottom: 80px;
 }
 
 .portfolio.container {
@@ -338,7 +345,6 @@ body {
 }
 
 .portfolio-title {
-    padding-top: 80px;
     font-size: 32px;
     color: #111;
     text-transform: uppercase;
@@ -391,6 +397,9 @@ body {
     justify-content: flex-end;
 }
 
+.portfolio-container{
+    padding: 80px 0 60px 0;
+}
 .portfolio-post-box {
 
 }
@@ -435,11 +444,10 @@ body {
 }
 
 .team-container {
-    padding-bottom: 60px;
+    padding: 80px 0 60px 0;
 }
 
 .team-title {
-    padding-top: 80px;
     font-size: 32px;
     color: #111;
     text-transform: uppercase;

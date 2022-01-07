@@ -57,20 +57,6 @@
 
     }
 
-
-
-}
-
-@media (max-width: 576px) {
-    /* 320 - 576 */
-    .justify-content-center {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-
     .burger {
         display: block;
         z-index: 2;
@@ -93,6 +79,150 @@
 
     .menu.show {
         left: 0;
+    }
+
+    .hero-title {
+        line-height: 56px;
+        margin-bottom: 3px;
+    }
+    .hero-desc{
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 576px) {
+    /* 320 - 576 */
+    .justify-content-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-3{
+        flex-direction: revert;
+    }
+    .form-control {
+        display: block;
+        width: 200px;
+        margin-left: 0;
+        margin-bottom: 16px;
+        padding: 6px 18px;
+
+    }
+    .col-4{
+        width: 50%;
+    }
+    .hero-title {
+        font-size: 31px;
+        line-height: 38px;
+
+    }
+    .hero-desc{
+        font-size: 9px;
+        margin-bottom: 16px;
+    }
+    .btn{
+        padding: 3px 18px;
+    }
+    .counts {
+        font-size: 24px;
+    }
+    .facts-numbers p{
+        font-size: 10px;
+    }
+    .facts-desc {
+        margin-bottom: 25px;
+    }
+    .services-box {
+        margin: 0 0 50px;
+        padding: 39px 7px;
+        position: relative;
+    }
+    .services-container{
+        padding-top:40px;
+    }
+    .services-title{
+        font-size: 26px;
+    }
+    .services-desc{
+        font-size: 13px;
+        margin-bottom: 60px;
+    }
+    .portfolio-container{
+        padding: 40px 0 20px 0;
+    }
+    .portfolio-title{
+        font-size: 26px;
+    }
+    .portfolio-desc{
+        font-size: 13px;
+        margin-bottom: 35px;
+    }
+    .portfolio {
+        display: block;
+        background-color: #f7f7f7;
+    }
+    .team-container {
+        padding: 40px 0 35px 0;
+    }
+    .team-title{
+        font-size: 26px;
+
+    }
+    .team-desc{
+        font-size: 13px;
+
+    }
+    .contact-title{
+        font-size: 26px;
+    }
+    .contact-desc{
+        font-size: 13px;
+        margin-bottom: 35px;
+    }
+    .about-container{
+        padding-bottom: 20px;
+    }
+    .about-title {
+        font-size: 26px;
+        margin-bottom: 13px;
+    }
+    .about-desc {
+        margin-bottom: 14px;
+        font-size: 15px;
+    }
+    .about-content{
+        margin-bottom: 18px;
+    }
+    .about-icon {
+        width: 56px;
+        height: 56px;
+        min-width: 56px;
+        margin-right: 8px;
+    }
+    .about-icon i{
+        font-size: 21px;
+    }
+    .about-content-title{
+        font-size: 16px;
+    }
+    .about-subtitle{
+        font-size: 13px;
+    }
+    .facts {
+        background: #f7f7f7;
+        padding: 38px 0 42px 0;
+    }
+    .about-padding {
+        padding: 18px 0;
+    }
+    .contact{
+        padding: 40px 0 20px 0;
+    }
+    .text-center button {
+        padding: 8px 12px;
+        font-size: 13px;
     }
 }
 
