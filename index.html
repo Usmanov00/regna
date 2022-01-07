@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.css">
 </head>
 <body>
 <header class="header">
@@ -20,6 +24,7 @@
             <a href="#team" class="menu-link">Team</a>
             <a href="#contact" class="menu-link">Contact</a>
         </nav>
+        <div class="burger"><i class="fas fa-bars"></i></div>
     </div>
 </header>
 <section id="hero" class="hero">
@@ -30,8 +35,8 @@
     </div>
 </section>
 <section id="about" class="about">
-    <div class="container">
-        <div class="about-padding"></div>
+    <div class="container about-container">
+
         <div class="row">
             <div class="col-6">
                 <h2 class="about-title">Few Words About Us
@@ -102,7 +107,7 @@
     </div>
 </section>
 <section id="services" class="services">
-    <div class="container">
+    <div class="container services-container">
         <h3 class="services-title">
             services
         </h3>
@@ -191,14 +196,6 @@
         <h3 class="portfolio-title">portfolio</h3>
         <p class="portfolio-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
             doloremque</p>
-
-            <ul class="categories">
-                <li class="categories-item active">ALL</li>
-                <li class="categories-item">APP</li>
-                <li class="categories-item">CARD</li>
-                <li class="categories-item">LOGO</li>
-                <li class="categories-item">WEB</li>
-            </ul>
         <div class="row">
             <div class="col-3">
                 <div class="portfolio-post-item">
@@ -426,7 +423,7 @@
     </div>
     <div class="container contact-container">
         <div class="row justify-content-center">
-            <div class="col-8 ">
+            <div class="col-3 ">
                 <div class="contact-box">
                     <div class="adr">
                         <i class="fas fa-map-marker-alt"></i>
@@ -450,7 +447,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-5">
                 <form method="post" role="form" class="contact-form">
                     <div class="form-group">
                         <label>
@@ -484,5 +481,7 @@
             Bootstrap Templates by <a href="#">BootstrapMade</a></div>
     </div>
 </section>
+
+<script src="./js/script.js"></script>
 </body>
 </html>
